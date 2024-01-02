@@ -4,7 +4,8 @@ const database = require("../database/connection");
 const tableName = "users";
 
 class UsersController {
-  //Adds a new user to the table
+  
+  //Creates a new user login
   createUser(req, res) {
     const { username, password } = req.body;
 
